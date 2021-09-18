@@ -14,7 +14,7 @@ header {
     border-radius: 1.1em;
 
 }
-footer {
+footer, p {
     color: #90FFDC;
     background-color: #0C120C;
     margin: 1.25rem auto;
