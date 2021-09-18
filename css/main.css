@@ -1,12 +1,12 @@
 body {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: #7A7978;
     line-height: 1rem;
 }
 header {
-    color: #8F8F8C;
-    background-color: #006847;
+    color: #90FFDC;
+    background-color: #0C120C;
     margin: 1.25rem auto;
     max-width: 760px;
     padding: 1rem;
@@ -15,8 +15,8 @@ header {
 
 }
 footer {
-    color: #8F8F8C;
-    background-color: #006847;
+    color: #90FFDC;
+    background-color: #0C120C;
     margin: 1.25rem auto;
     max-width: 760px;
     text-align: center;
@@ -37,11 +37,12 @@ h2{
 ul,li,a {
     margin: 1.25rem auto;
     max-width: 760px;
-    color: #8F8F8C;
+    color: #8DE4FF;
     padding-right: 1rem;
 }
 img {
     float: right;
     margin: 10px;
     border-radius: 1.1em;
+    height: 85%;
 }
