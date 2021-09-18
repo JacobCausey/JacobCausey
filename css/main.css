@@ -1,27 +1,28 @@
 body {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #2F243A;
+    background-color: black;
     line-height: 1rem;
 }
 header {
-    color: #FF928B;
+    color: #8F8F8C;
+    background-color: #006847;
     margin: 1.25rem auto;
     max-width: 760px;
     padding: 1rem;
-    text-align: left;
-    background-color: rgb(2, 250, 155);
+    text-align: left;    
     border-radius: 1.1em;
 
 }
 footer {
-    color: #FF928B;
+    color: #8F8F8C;
+    background-color: #006847;
     margin: 1.25rem auto;
     max-width: 760px;
     text-align: center;
     padding: 1rem;
-    background-color: rgb(2, 250, 155);
-    border-radius: 1.1em;
+    
+    border-radius: 1.1em; 
 }
 h2{
     color:whitesmoke;
@@ -32,10 +33,11 @@ h2{
     padding-bottom: 1em;
 
 }
-ul,li {
+
+ul,li,a {
     margin: 1.25rem auto;
     max-width: 760px;
-    color: rgb(231, 197, 2);
+    color: #8F8F8C;
     padding-right: 1rem;
 }
 img {
