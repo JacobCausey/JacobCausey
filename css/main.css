@@ -1,21 +1,21 @@
 body {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(238, 165, 210);
+    background-color: #2F243A;
     line-height: 1rem;
 }
 header {
-    color: #fa8072;
+    color: #FF928B;
     margin: 1.25rem auto;
     max-width: 760px;
-    text-align: left;
     padding: 1rem;
+    text-align: left;
     background-color: rgb(2, 250, 155);
     border-radius: 1.1em;
 
 }
 footer {
-    color: #fa8072;
+    color: #FF928B;
     margin: 1.25rem auto;
     max-width: 760px;
     text-align: center;
