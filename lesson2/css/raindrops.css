@@ -10,6 +10,9 @@ header {
     max-width: 760px;
     padding: 1rem;
 }
+body {
+    background-color: #2b2b2b;
+}
 
 main {
     display: grid;
@@ -42,6 +45,18 @@ footer, p {
 }
 a {
     color: #841617;
-    
-
 }
+
+.chinook {
+    grid-column: 1 / 2;
+}
+.cyclone {
+    grid-column: 2 / 3;
+}
+.doldrum {
+    grid-column: 3 / 4;
+}
+
+
+/*Starting Media Views */
+
