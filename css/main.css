@@ -19,14 +19,15 @@ header {
 }
 footer, p {
     color: #90FFDC;
-    background-color: #0C120C;
+    background-color: #000000;
     margin: 1.25rem auto;
     max-width: 760px;
     text-align: center;
     padding: 1rem;
-    font-family: 'Bangers', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     border-radius: 1.1em; 
 }
+
 h2{
     color:whitesmoke;
     margin: 1.25rem auto;
