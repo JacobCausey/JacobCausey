@@ -65,3 +65,20 @@ a {
 
 /*Starting Media Views */
 
+/*medium */
+@media (max-width: 800px) {
+    main {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+/*The Bane of My Existance */
+@media (max-width: 160px) and (min-width:400px) {
+    main {
+        display: grid;
+    grid-template-columns: 1fr ;
+    }
+    
+}
