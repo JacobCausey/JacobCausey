@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@media only screen and (min-width: 800px ) and (max-width: 3670px) {
 
 header {
     font-family: 'Josefin Sans', sans-serif;
@@ -62,23 +63,137 @@ a {
     border-radius: 1.1em;
 }
 
+}
 
-/*Starting Media Views */
 
 /*medium */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     main {
         display: grid;
     grid-template-columns: 1fr 1fr;
     }
+    header {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #FDF9D8;
+        color: #841617;
+        text-align: center;
+        border-radius: 1.1em;
+        margin: 1.25rem auto;
+        max-width: 760px;
+        padding: 1rem;
+    }
+    body {
+        background-color: #2b2b2b;
+    }
+    img {
+        width: 65%;
+    }
+       
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        color:#841617;
+    }
+    
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color:#841617;
+    
+    
+    }
+    
+    footer, p {
+        color: #841617;
+        background-color: #FDF9D8;
+        margin: 1.25rem auto;
+        max-width: 760px;
+        text-align: center;
+        padding: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        border-radius: 1.1em; 
+    }
+    a {
+        color: #841617;
+    }
+    
+    .chinook {
+        grid-column: 1 / 2;
+        border-radius: 1.1em;
+    }
+    .cyclone {
+        grid-column: 3 / 4;
+        border-radius: 1.1em;
+    }
+    .doldrum {
+        grid-column: 2 / 3 ;
+        border-radius: 1.1em;
+    }
     
 }
 
-/*The Bane of My Existance 
-@media only screen and (max-width: 160px) and (min-width:400px) {
+/*The Bane of My Existance */
+@media only screen and (max-width:400px) {
     main {
         display: grid;
     grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+    header {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #FDF9D8;
+        color: #841617;
+        text-align: center;
+        border-radius: 1.1em;
+        margin: 1.25rem auto;
+        max-width: 760px;
+        padding: 1rem;
+    }
+    body {
+        background-color: #2b2b2b;
+    }
+    img {
+        width: 65%;
+    }
+       
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        color:#841617;
     }
     
-}*/
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color:#841617;
+    
+    
+    }
+    
+    footer, p {
+        color: #841617;
+        background-color: #FDF9D8;
+        margin: 1.25rem auto;
+        max-width: 760px;
+        text-align: center;
+        padding: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        border-radius: 1.1em; 
+    }
+    a {
+        color: #841617;
+    }
+    
+    .chinook {
+        grid-column: 1;
+        grid-row: 1 / 2;
+        border-radius: 1.1em;
+    }
+    .cyclone {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        border-radius: 1.1em;
+    }
+    .doldrum {
+        grid-column: 1 ;
+        grid-row: 3 / 4;
+        border-radius: 1.1em;
+    }
+    
+}
