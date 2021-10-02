@@ -58,15 +58,19 @@ img{
 .primary {
     color: #3D5A80;
     background-color: #E0FBFC;
+    padding: 1em;
 }
 .secondary {
-    background-color: #98C1D9;      
+    background-color: #98C1D9; 
+    padding: 1em;     
 }
 .accent1 {
     background-color: #E0FBFC;
+    padding: 1em;
 }
 .accent2 {
     background-color: #EE6C4D;
+    padding: 1em;
 }
 #coloredparagraph {
     background-color: #EE6C4D;
@@ -76,7 +80,7 @@ img{
 #currentdate {
     text-align: center;
     color: #3D5A80;
-
+    
 }
 #headerh1{
     text-align: center;
