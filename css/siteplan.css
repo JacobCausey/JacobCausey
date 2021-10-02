@@ -12,6 +12,8 @@ header,footer,a {
     color: #3D5A80;
     background-color: #EE6C4D;
     padding: 2em;
+    border-radius: 1.25em;
+}
     
 }
 ul,li {
