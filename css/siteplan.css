@@ -139,7 +139,7 @@ img{
         line-height: 1.4em;
     }
     img{
-        width: 10%;
+        width: 30%;
     }
     
     .colors {
@@ -212,17 +212,20 @@ img{
             text-align: left;
             color: #3D5A80;
             padding: .25em;
+            line-height: .4em;
         }
         h2 {
             font-family: 'Kosugi Maru', sans-serif;
             text-align: left;
             color: #3D5A80;
             padding: .25em;
+            line-height: .4em;
         }
         h3 {
             color: #EE6C4D;
             text-align: left;
             font-family: 'Kosugi Maru', sans-serif;
+            line-height: .4em;
         }
         p {
             font-family: sans-serif;
