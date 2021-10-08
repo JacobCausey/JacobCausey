@@ -15,7 +15,12 @@ body {
     font-size: 24px;
     font-weight: bolder;
 }
-
+.logo img {
+    justify-content: flex-start;
+    z-index: -1;
+    width: 10vh;
+    
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -26,12 +31,14 @@ nav {
 
 }
 .nav-links {
+    font-size: 14px;
+    line-height: 2em;
     position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
     background-color: #EE6C4D;
-    display: flex;
+    display: table-cell; vertical-align: middle;
     align-items: center;
     width: 30%;
     transform: translateX(100%);
