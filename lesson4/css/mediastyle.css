@@ -5,6 +5,7 @@ and (min-device-width: 768px) {
 
 body {
     overflow-x: hidden;
+    background-color: #E0FBFC;
 }
 
 .logo {
@@ -116,5 +117,31 @@ footer {
     background-color: #EE6C4D;
     padding: 2em;
     border-radius: 1.25em;
+}
+
+.fivedayforecast {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EE6C4D;
+    color: #98C1D9;
+}
+.fivedayforecast h3 {
+    color: #3D5A80;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.article {
+    background-color: #98C1D9;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #3D5A80;
+}
+.contactinfo {
+    background-color: #98C1D9;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #3D5A80;
+}
+.date {
+    color: #3D5A80;
+    font-family: 'Kosugi Maru', sans-serif;
 }
 }
