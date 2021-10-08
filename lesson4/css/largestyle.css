@@ -1,8 +1,4 @@
-@media screen
-and (min-device-width: 1200px)
-and (max-device-width: 1920px) {
-    
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -50,5 +46,36 @@ nav{
     background-color: #3D5A80;
     margin: 5px;
 }
-
+h1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: left;
+    color: #3D5A80;
+    padding: .25em;
 }
+h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: left;
+    color: #3D5A80;
+    padding: .25em;
+}
+h3 {
+    color: #EE6C4D;
+    text-align: left;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+p {
+    font-family: sans-serif;
+    color: rgb(53, 50, 50);
+    text-align: justify;
+    font-size: 1.26em;
+    line-height: 1.4em;
+}
+footer {
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #3D5A80;
+    background-color: #EE6C4D;
+    padding: 2em;
+    border-radius: 1.25em;
+}
+

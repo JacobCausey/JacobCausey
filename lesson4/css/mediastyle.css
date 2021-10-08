@@ -3,12 +3,6 @@
 @media screen 
 and (min-device-width: 768px) {   
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -52,6 +46,7 @@ nav {
 }
 .nav-links li{
     opacity: 0;
+    list-style: none;
 }
 
 .plates {
@@ -90,5 +85,36 @@ nav {
 .toggle .plate3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
+h1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: left;
+    color: #3D5A80;
+    padding: .25em;
+}
+h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: left;
+    color: #3D5A80;
+    padding: .25em;
+}
+h3 {
+    color: #EE6C4D;
+    text-align: left;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+p {
+    font-family: sans-serif;
+    color: rgb(53, 50, 50);
+    text-align: justify;
+    font-size: 1.26em;
+    line-height: 1.4em;
+}
+footer {
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #3D5A80;
+    background-color: #EE6C4D;
+    padding: 2em;
+    border-radius: 1.25em;
+}
 }
