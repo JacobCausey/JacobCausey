@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+@media screen 
+and (min-device-width: 768px) {   
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    color: #3D5A80;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1em;
+    background-color: #EE6C4D;
+    font-family: 'Kosugi Maru', sans-serif;
+
+}
+.nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #EE6C4D;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+.nav-links a {
+    color: #3D5A80;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.nav-links li{
+    opacity: 0;
+}
+
+.plates {
+    display: block;
+    cursor: pointer;
+}
+
+.plates div{
+    width: 25px;
+    height: 2px;
+    background-color: #3D5A80;
+    margin: 5px;
+    transition: all 0.25s ease;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .plate1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .plate2 {
+    opacity: 0;
+}
+.toggle .plate3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+}
