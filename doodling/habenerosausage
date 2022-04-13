@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head></head>
+<body>
 <div id="navMenu">
     <span></span>
     <span></span>
     <span></span>
 </div>
-
+</body>
+<footer>
+    
+</footer>
 //css//
 
 #navMenu > span {
